@@ -1,5 +1,7 @@
 # review-based-recommender-system
 
-در این پروژه متن نظرات به همراه شناسه کاربر و شناسه آیتم به عنوان ورودی داده می شود تا در نهایت مدل بتواند امتیاز نهایی را پیش بینی کند.
+In this model we use UserId ,ItemId and Reviews as Input and predict a Rate as Output.
+You can use Amazon Review Dataset for test it.
 
-برای این پروژه می توان از دیتاست نظرات سایت آمازون و یلپ استفاده کرد.
+
+In this model we use Deep Learning algorithms like LSTM and CNN to have better performance, Attention Mechanism to extract important part of reviews, Factorization Matrix to predict Ratingsand Word Embedding to convert words to matrix.
